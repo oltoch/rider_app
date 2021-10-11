@@ -1,5 +1,5 @@
 name: rider_app
-description: A new Flutter project.
+description: User section of a ride sharing app.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -40,7 +40,6 @@ dependencies:
   flutter_polyline_points: ^1.0.0
   animated_text_kit: ^4.2.1
   flutter_geofire: ^2.0.0
-  #shared_preferences: ^2.0.8
 
 dev_dependencies:
   flutter_test:

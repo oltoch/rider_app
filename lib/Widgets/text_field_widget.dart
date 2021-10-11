@@ -24,7 +24,7 @@ class _TextFieldWidgetState extends State<TextFieldWidget> {
   bool _isObscure() {
     //if obscureText value passed in is null or false,
     // return false otherwise, return true
-    return widget.obscureText == null || false ? false : true;
+    return widget.obscureText == null || widget.obscureText == false ? false : true;
   }
 
   InputDecoration inputDecorationWithSuffixIcon() {
@@ -66,9 +66,6 @@ class _TextFieldWidgetState extends State<TextFieldWidget> {
   @override
   Widget build(BuildContext context) {
     return TextField(
-      /*onChanged: (value){
-        String holder = value;
-      },*/
       controller: widget.controller,
       obscureText: widget.obscureText == null || false ? false : _obscure,
       keyboardType: widget.textInputType,
