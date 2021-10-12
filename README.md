@@ -1,16 +1,16 @@
 # rider_app
 
-A new Flutter project.
+The user app in a ride sharing application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is still a work in progress and is not finished yet.
 
-A few resources to get you started if this is your first Flutter project:
+## Info about the app
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The app uses Google Maps API to display the current location of the user.
+Other APIs used to make the app include: GeoLocator, Geofire and others.
+The app employs Provider package for the state management
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Current status of the app
+![Rider_app](https://i.makeagif.com/media/10-12-2021/GHaEGH.gif)
